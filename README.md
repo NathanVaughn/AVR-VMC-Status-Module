@@ -1,7 +1,7 @@
 # AVR-VMC-Status-Module
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Build Status Module](https://github.com/bellflight/AVR-VMC-Status-Module/actions/workflows/build.yml/badge.svg)](https://github.com/bellflight/AVR-VMC-Status-Module/actions/workflows/build.yml)
+[![Build Status Module](https://github.com/nathanvaughn/AVR-VMC-Status-Module/actions/workflows/build.yml/badge.svg)](https://github.com/nathanvaughn/AVR-VMC-Status-Module/actions/workflows/build.yml)
 
 The Status module is responsible for consuming status information from the various
 other modules and updating the status LEDs connected to the VMC. This also
@@ -38,7 +38,7 @@ poetry self add poetry-pre-commit-plugin
 Now, you can clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/bellflight/AVR-VMC-Status-Module
+git clone https://github.com/nathanvaughn/AVR-VMC-Status-Module
 cd AVR-VMC-Status-Module
 vtr install
 ```
